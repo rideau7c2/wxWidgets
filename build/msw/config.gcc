@@ -16,6 +16,9 @@ LINK_DLL_FLAGS ?= -shared
 # Compiler flags to link loadable module 
 LINK_MODULE_FLAGS ?= -shared
 
+#Command client
+SHELL = cmd.exe
+
 # C compiler 
 CC = gcc
 
